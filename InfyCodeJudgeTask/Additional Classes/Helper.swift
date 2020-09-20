@@ -8,6 +8,7 @@ import UIKit
 import SwiftMessages
 extension UITextField {
 
+    // Mark:-  UnderLine Text Field
 func useUnderline() {
     let border = CALayer()
     let borderWidth = CGFloat(1.0)
@@ -19,6 +20,7 @@ func useUnderline() {
     
     }
 }
+// Mark: Toast message
 func showMessage(view: MessageView = try! SwiftMessages.viewFromNib(), isCardView: Bool = false ,titleText: String = "Message" ,bodyText: String,iconImage: UIImage? = nil ,iconText: String? = nil,
                  buttonImage: UIImage? = nil,buttonTitle: String? = "OK",theme: Theme = Theme.info, iconStyle: IconStyle = .default,
                  accessibilityPrefix: String = "info", dropShadow: Bool = true, showButton:Bool = true,showIcon: Bool = true ,showTitle: Bool = true ,showBody: Bool = true, presentationStyle: SwiftMessages.PresentationStyle = .top ,presentationContext: SwiftMessages.PresentationContext = .window(windowLevel: UIWindow.Level.normal),duration: SwiftMessages.Duration = .forever, dimMode: SwiftMessages.DimMode = .gray(interactive: true),shouldAutoRotate: Bool = true,interactiveHide: Bool = true, buttonTapHandler: ((UIButton)->())? = { _ in SwiftMessages.hide() } ) {

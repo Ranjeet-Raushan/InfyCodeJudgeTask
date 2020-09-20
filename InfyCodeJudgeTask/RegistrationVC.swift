@@ -59,7 +59,7 @@ class RegistrationVC: UIViewController {
         
     }
     
-    
+    // Mark:- Validiation
       func validiate() {
         guard let name = txtFieldName.text, !name.trimmingCharacters(in: .whitespaces).isEmpty else {
                    showMessage(bodyText: "Enter  Name",theme: .warning)
@@ -160,3 +160,5 @@ class RegistrationVC: UIViewController {
     }
     
 }
+
+

@@ -12,6 +12,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Mark:-
+        // Key Board Handling 
           IQKeyboardManager.shared.enable = true // Key Board Handling
         return true
     }
