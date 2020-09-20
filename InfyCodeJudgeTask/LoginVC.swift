@@ -55,7 +55,7 @@ class LoginVC: UIViewController {
         
         let params:[String:Any] = ["email":email,"password": pwd ]
         callService(params: params)
-    }
+    }    
     
     fileprivate func hideKeyBoard(){
         txtFiledEmail.resignFirstResponder()
