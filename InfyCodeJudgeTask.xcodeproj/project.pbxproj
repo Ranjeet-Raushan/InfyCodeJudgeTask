@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE488F1C25179A72009024A0 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE488F1B25179A72009024A0 /* HoshiTextField.swift */; };
+		CE488F1E25179E80009024A0 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE488F1D25179E80009024A0 /* TextFieldEffects.swift */; };
+		CE488F2025179EB7009024A0 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE488F1F25179EB7009024A0 /* TextField.swift */; };
+		CEF9EFA9251766DD00BB1F55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9EFA8251766DD00BB1F55 /* AppDelegate.swift */; };
+		CEF9EFAB251766DD00BB1F55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9EFAA251766DD00BB1F55 /* SceneDelegate.swift */; };
+		CEF9EFB0251766DD00BB1F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF9EFAE251766DD00BB1F55 /* Main.storyboard */; };
+		CEF9EFB2251766DF00BB1F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF9EFB1251766DF00BB1F55 /* Assets.xcassets */; };
+		CEF9EFB5251766DF00BB1F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF9EFB3251766DF00BB1F55 /* LaunchScreen.storyboard */; };
+		CEF9EFBD2517676300BB1F55 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9EFBC2517676300BB1F55 /* LoginVC.swift */; };
+		CEF9EFBF2517677D00BB1F55 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9EFBE2517677D00BB1F55 /* RegistrationVC.swift */; };
+		CEF9EFC12517711900BB1F55 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9EFC02517711900BB1F55 /* Helper.swift */; };
+		CEF9EFC325177DE300BB1F55 /* InternetCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9EFC225177DE200BB1F55 /* InternetCheck.swift */; };
+		CEF9EFC525177E2B00BB1F55 /* InfyTaskClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9EFC425177E2B00BB1F55 /* InfyTaskClient.swift */; };
+		CEF9EFC725177E9700BB1F55 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9EFC625177E9700BB1F55 /* Constants.swift */; };
+		DEF99D19DB622D1D2522E236 /* Pods_InfyCodeJudgeTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0D9105D859195A23EAA935 /* Pods_InfyCodeJudgeTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22EE93879B10F41E2D7885F5 /* Pods-InfyCodeJudgeTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfyCodeJudgeTask.release.xcconfig"; path = "Target Support Files/Pods-InfyCodeJudgeTask/Pods-InfyCodeJudgeTask.release.xcconfig"; sourceTree = "<group>"; };
+		4F0D9105D859195A23EAA935 /* Pods_InfyCodeJudgeTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfyCodeJudgeTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A9A541FF511076152E915F /* Pods-InfyCodeJudgeTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfyCodeJudgeTask.debug.xcconfig"; path = "Target Support Files/Pods-InfyCodeJudgeTask/Pods-InfyCodeJudgeTask.debug.xcconfig"; sourceTree = "<group>"; };
+		CE488F1B25179A72009024A0 /* HoshiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		CE488F1D25179E80009024A0 /* TextFieldEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		CE488F1F25179EB7009024A0 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		CEF9EFA5251766DD00BB1F55 /* InfyCodeJudgeTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfyCodeJudgeTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF9EFA8251766DD00BB1F55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF9EFAA251766DD00BB1F55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEF9EFAF251766DD00BB1F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF9EFB1251766DF00BB1F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF9EFB4251766DF00BB1F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF9EFB6251766DF00BB1F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF9EFBC2517676300BB1F55 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CEF9EFBE2517677D00BB1F55 /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		CEF9EFC02517711900BB1F55 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CEF9EFC225177DE200BB1F55 /* InternetCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetCheck.swift; sourceTree = "<group>"; };
+		CEF9EFC425177E2B00BB1F55 /* InfyTaskClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfyTaskClient.swift; sourceTree = "<group>"; };
+		CEF9EFC625177E9700BB1F55 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF9EFA2251766DD00BB1F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF99D19DB622D1D2522E236 /* Pods_InfyCodeJudgeTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67802A44F13FE65791CD8216 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53A9A541FF511076152E915F /* Pods-InfyCodeJudgeTask.debug.xcconfig */,
+				22EE93879B10F41E2D7885F5 /* Pods-InfyCodeJudgeTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		70C1E995B86A672B23E835F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F0D9105D859195A23EAA935 /* Pods_InfyCodeJudgeTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE488F212517A0FC009024A0 /* Custom Text Field */ = {
+			isa = PBXGroup;
+			children = (
+				CE488F1D25179E80009024A0 /* TextFieldEffects.swift */,
+				CE488F1B25179A72009024A0 /* HoshiTextField.swift */,
+				CE488F1F25179EB7009024A0 /* TextField.swift */,
+			);
+			path = "Custom Text Field";
+			sourceTree = "<group>";
+		};
+		CEF9EF9C251766DD00BB1F55 = {
+			isa = PBXGroup;
+			children = (
+				CEF9EFA7251766DD00BB1F55 /* InfyCodeJudgeTask */,
+				CEF9EFA6251766DD00BB1F55 /* Products */,
+				67802A44F13FE65791CD8216 /* Pods */,
+				70C1E995B86A672B23E835F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF9EFA6251766DD00BB1F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF9EFA5251766DD00BB1F55 /* InfyCodeJudgeTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF9EFA7251766DD00BB1F55 /* InfyCodeJudgeTask */ = {
+			isa = PBXGroup;
+			children = (
+				CEF9EFA8251766DD00BB1F55 /* AppDelegate.swift */,
+				CEF9EFAA251766DD00BB1F55 /* SceneDelegate.swift */,
+				CEF9EFC8251786CF00BB1F55 /* Additional Classes */,
+				CEF9EFBC2517676300BB1F55 /* LoginVC.swift */,
+				CE488F212517A0FC009024A0 /* Custom Text Field */,
+				CEF9EFBE2517677D00BB1F55 /* RegistrationVC.swift */,
+				CEF9EFAE251766DD00BB1F55 /* Main.storyboard */,
+				CEF9EFB1251766DF00BB1F55 /* Assets.xcassets */,
+				CEF9EFB3251766DF00BB1F55 /* LaunchScreen.storyboard */,
+				CEF9EFB6251766DF00BB1F55 /* Info.plist */,
+			);
+			path = InfyCodeJudgeTask;
+			sourceTree = "<group>";
+		};
+		CEF9EFC8251786CF00BB1F55 /* Additional Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEF9EFC02517711900BB1F55 /* Helper.swift */,
+				CEF9EFC225177DE200BB1F55 /* InternetCheck.swift */,
+				CEF9EFC425177E2B00BB1F55 /* InfyTaskClient.swift */,
+				CEF9EFC625177E9700BB1F55 /* Constants.swift */,
+			);
+			path = "Additional Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF9EFA4251766DD00BB1F55 /* InfyCodeJudgeTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF9EFB9251766DF00BB1F55 /* Build configuration list for PBXNativeTarget "InfyCodeJudgeTask" */;
+			buildPhases = (
+				DE15106504DFEC25E10D3F1A /* [CP] Check Pods Manifest.lock */,
+				CEF9EFA1251766DD00BB1F55 /* Sources */,
+				CEF9EFA2251766DD00BB1F55 /* Frameworks */,
+				CEF9EFA3251766DD00BB1F55 /* Resources */,
+				1CAAB7ECD336765C141410DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfyCodeJudgeTask;
+			productName = InfyCodeJudgeTask;
+			productReference = CEF9EFA5251766DD00BB1F55 /* InfyCodeJudgeTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF9EF9D251766DD00BB1F55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ranjeet Raushan";
+				TargetAttributes = {
+					CEF9EFA4251766DD00BB1F55 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = CEF9EFA0251766DD00BB1F55 /* Build configuration list for PBXProject "InfyCodeJudgeTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF9EF9C251766DD00BB1F55;
+			productRefGroup = CEF9EFA6251766DD00BB1F55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF9EFA4251766DD00BB1F55 /* InfyCodeJudgeTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF9EFA3251766DD00BB1F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF9EFB5251766DF00BB1F55 /* LaunchScreen.storyboard in Resources */,
+				CEF9EFB2251766DF00BB1F55 /* Assets.xcassets in Resources */,
+				CEF9EFB0251766DD00BB1F55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CAAB7ECD336765C141410DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfyCodeJudgeTask/Pods-InfyCodeJudgeTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfyCodeJudgeTask/Pods-InfyCodeJudgeTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InfyCodeJudgeTask/Pods-InfyCodeJudgeTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE15106504DFEC25E10D3F1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfyCodeJudgeTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF9EFA1251766DD00BB1F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE488F1C25179A72009024A0 /* HoshiTextField.swift in Sources */,
+				CE488F2025179EB7009024A0 /* TextField.swift in Sources */,
+				CEF9EFA9251766DD00BB1F55 /* AppDelegate.swift in Sources */,
+				CEF9EFBD2517676300BB1F55 /* LoginVC.swift in Sources */,
+				CEF9EFC12517711900BB1F55 /* Helper.swift in Sources */,
+				CE488F1E25179E80009024A0 /* TextFieldEffects.swift in Sources */,
+				CEF9EFC325177DE300BB1F55 /* InternetCheck.swift in Sources */,
+				CEF9EFBF2517677D00BB1F55 /* RegistrationVC.swift in Sources */,
+				CEF9EFAB251766DD00BB1F55 /* SceneDelegate.swift in Sources */,
+				CEF9EFC525177E2B00BB1F55 /* InfyTaskClient.swift in Sources */,
+				CEF9EFC725177E9700BB1F55 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEF9EFAE251766DD00BB1F55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF9EFAF251766DD00BB1F55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF9EFB3251766DF00BB1F55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF9EFB4251766DF00BB1F55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF9EFB7251766DF00BB1F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF9EFB8251766DF00BB1F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF9EFBA251766DF00BB1F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A9A541FF511076152E915F /* Pods-InfyCodeJudgeTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBBZ6K6ZJT;
+				INFOPLIST_FILE = InfyCodeJudgeTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ranjeet-Raushan.InfyCodeJudgeTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF9EFBB251766DF00BB1F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22EE93879B10F41E2D7885F5 /* Pods-InfyCodeJudgeTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBBZ6K6ZJT;
+				INFOPLIST_FILE = InfyCodeJudgeTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ranjeet-Raushan.InfyCodeJudgeTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF9EFA0251766DD00BB1F55 /* Build configuration list for PBXProject "InfyCodeJudgeTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF9EFB7251766DF00BB1F55 /* Debug */,
+				CEF9EFB8251766DF00BB1F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF9EFB9251766DF00BB1F55 /* Build configuration list for PBXNativeTarget "InfyCodeJudgeTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF9EFBA251766DF00BB1F55 /* Debug */,
+				CEF9EFBB251766DF00BB1F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF9EF9D251766DD00BB1F55 /* Project object */;
+}
